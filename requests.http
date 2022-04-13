@@ -1,0 +1,15 @@
+### List all dogs
+GET http://localhost:3000/dog
+
+### Create new dog
+POST http://localhost:3000/dog
+Content-Type: application/json
+
+{
+    "name": 1,
+    "breed": "corgi",
+    "color": "brown"
+}
+
+### Get the specified dog
+GET http://localhost:3000/dog/1
